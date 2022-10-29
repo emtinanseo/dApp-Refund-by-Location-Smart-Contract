@@ -5,3 +5,4 @@ __pycache__
 build/
 reports/
 casino-ethereum/package-lock.json
+casino-ethereum/node_modules/
