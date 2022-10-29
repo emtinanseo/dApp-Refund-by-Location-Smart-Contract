@@ -4,3 +4,4 @@ __pycache__
 .hypothesis/
 build/
 reports/
+casino-ethereum/package-lock.json
