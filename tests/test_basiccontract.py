@@ -5,7 +5,8 @@ def test_default_value():
       checks for proper contract deployment by trying to retrieve the default value
     """
     # fetch the account
-    account = accounts[0]    
+    #account = accounts[0]  
+    account = accounts.load("eo-goerli-account")  
     # deploy contract
     deploy_contract = BasicContract.deploy({"from":account})
     #retrieve default number
@@ -18,7 +19,8 @@ def test_stored_value():
     makes sure that our storeNumber function is working properly.
     """
     # fetch the account
-    account = accounts[0]
+    #account = accounts[0]
+    account = accounts.load("eo-goerli-account")
     # deploy contract
     deploy_contract = BasicContract.deploy({"from":account})
     # store a number
