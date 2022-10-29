@@ -1,8 +1,9 @@
 from brownie import BasicContract , accounts
 
 def main(): 
-    # Fetch an account from accounts provided by Ganache CLI
-    account = accounts[0] 
+    # Fetch an account from local accounts provided by Ganache CLI
+    # account = accounts[0] 
+    account = accounts.load("eo-goerli-account")
     # Deploy contract using deploy function of the contractContainer object (BasicContact) 
     deploy_contract = BasicContract.deploy({"from":account}) 
     # Print contract address (deploy_contract is a ProjectContract object) 
