@@ -13,3 +13,14 @@ Our goal in this challenge is to produce an Ethereum based dApp. It will have th
 
 # Content
 - Smart Contracts in directory [contracts](/contracts)
+
+
+# Approach
+Technology that we are going to use:
+- Database: The Ethereum’s Testnet Görli blockchain.<!-- - Hosting: IPFS to get free hosting forever in a decentralized platform. -->
+- Frontend: React.js with webpack. <!-- - Domain name: Godaddy. Here I could use some decentralized domain service like peername but it’s just faster and easier with godaddy or any other domain registrar. -->
+- Contract’s programing language: Solidity 0.8.0, the most common language for developing Smart Contracts.
+- Frontend contracts: web3.js to use those contracts in web user interface.
+- Frameworks: Brownie to deploy, test and compile smart contracts.<!-- - Development server: Node.js to use the app while developing locally along with testrpc. -->
+- Metamask: To use the final application like the end user would.
+
